@@ -49,9 +49,7 @@ public class MissileCruiseCmdSeekerSettings : MissileBaseSeekerSettings<CruiseCm
     // top to bottom, and DataLinkMenuConfig references this field.
     private static readonly MissileSettingsPaneConfig.ButtonConfig OnlyTargetPrioedBtnCfg = new MissileSettingsPaneConfig.ButtonConfig(
         "Only Track Prioed Targets",
-        "Controls whether or not the seeker will pickup unpriorized targets. \n\n" +
-        "Any Tracks: Seeker will pickup and target the first track it can see, if there are multiple in its cone of vision when it activates it will pick the closest prioed track; if none are found it will pick the first normal track. \n\n" +
-        "Only Prioed Tracks: The missile will only accept prioed targets. When its seeker activates it will target the closest prioed track.",
+        "Controls whether or not the seeker will pickup unpriorized targets. \n\nAny Tracks: Seeker will pickup and target the first track it can see, if there are multipe in its cone of vison when it activates it will pick the closest prioed track if none are found it will pick the first normal track. \n\nOnly Prioed Tracks: The missile will only accept Prioed targets, when its seeker activates it will target the closest prioed track",
         "_onlyTrackPrioed",
         "ButtonSetOnlyTrackPrioed",
         new SequenceOption[] {
