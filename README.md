@@ -3,7 +3,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=3807565632
 
 A Function Library for the game Nebulous Fleet Command
 
-makes sure to drag the [IKLib.dll](https://github.com/Dev-IKARO-Dev/IKAROsLib/blob/main/IKLib.dll) file into your unity projects Lib folder
+make sure to drag the [IKLib.dll](https://github.com/Dev-IKARO-Dev/IKAROsLib/blob/main/IKLib.dll) file into your unity projects Lib folder
 and make sure the libary loads before your mod
 
 Currently Contains:
